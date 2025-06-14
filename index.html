@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ToolStack AI | Find the Right AI Tool for You</title>
+  <meta name="description" content="Find the best AI tools by profession. Compare top tools for marketers, writers, teachers, and more.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">ToolStack AI</h1>
+      <nav>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <a href="#">Affiliate</a>
+      </nav>
+    </div>
+    <div class="container hero">
+      <h2>Find the Right AI Tool — Tailored to Your Work, Not the Hype</h2>
+      <p>Discover AI tools designed for real people, real jobs, and real results. Whether you’re a teacher, lawyer, marketer, or small business owner -- we show you the best AI tools for your exact needs.</p>
+      <div class="selectors">
+        <select id="professionSelect">
+          <option selected disabled>Select your profession</option>
+          <option value="accountants.html">I’m a freelancer</option>
+          <option value="writers.html">I’m a writer</option>
+        </select>
+        <button class="btn" onclick="subscribe()">Subscribe</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container grid">
+    <!-- Same content as before -->
+    <section class="industry">
+      <h3>Explore Tools By Industry</h3>
+      <div class="cards">
+        <div class="card">AI for Accountants</div>
+        <div class="card">AI for Real Estate Agents</div>
+        <div class="card">AI for Marketers</div>
+        <div class="card">AI for Writers</div>
+        <div class="card">AI for Teachers</div>
+        <div class="card">AI for E-Commerce</div>
+        <div class="card">AI for Lawyers</div>
+        <div class="card">AI for Construction & Trades</div>
+      </div>
+      <a href="#" class="browse-link">Browse All 50+ Professions →</a>
+    </section>
+
+    <section class="top-tools">
+      <h3>Top Tools of the Month</h3>
+      <table>
+        <thead>
+          <tr><th>Name</th><th>Use Case</th><th>Rating</th><th>Free Plan?</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Jasper.ai</td><td>Marketing</td><td>⭐ 4.7</td><td>✅</td></tr>
+          <tr><td>Perplexity</td><td>General</td><td>⭐ 4.5</td><td>✅</td></tr>
+          <tr><td>Descript</td><td>Audio/Video</td><td>⭐ 4.6</td><td>✅</td></tr>
+          <tr><td>Surfer SEO</td><td>Writers</td><td>⭐ 4.4</td><td>✅</td></tr>
+        </tbody>
+      </table>
+      <a href="#">See All Top Tools →</a>
+      <h4>How It Works</h4>
+      <ol>
+        <li>Pick Your Industry – Find tools tailored to your job</li>
+        <li>Read Real Use Cases – Understand how they save time or money</li>
+        <li>Get Our Weekly Picks – Stay ahead, skip the noise</li>
+      </ol>
+      <h4>Join 10,000+ pros getting weekly AI shortcuts</h4>
+      <input type="email" placeholder="No spam, Just actionable">
+      <button class="btn">Subscribe</button>
+    </section>
+  </main>
+
+  <section class="container">
+    <h3>Compare Tools</h3>
+    <p>Which AI Writing Tool is Right for Me? <a href="#">Compare ChatGPT, Claude, Jasper, Copy.ai →</a></p>
+    <p>Best AI Tools for YouTubers <a href="#">Compare Pictory, Runway, Descript →</a></p>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Suggest a Tool</a>
+      <a href="#">Sponsor Us</a>
+      <a href="#">Terms & Privacy</a>
+    </div>
+    <p>Affiliate Disclosure: Some links on this site are affiliate links. That means we may earn a commission if you click through and buy.</p>
+  </footer>
+
+  <script>
+    document.getElementById('professionSelect').addEventListener('change', function() {
+      const url = this.value;
+      if (url) {
+        window.location.href = url;
+      }
+    });
+
+    function subscribe() {
+      alert('Thank you for subscribing! (Demo)');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+header {
+  background: #002c5f;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2.5rem;
+}
+p.tagline {
+  font-size: 1.2rem;
+}
+nav {
+  background: #01407f;
+  padding: 0.5rem 2rem;
+}
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+.tool-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.tool-card h3 {
+  margin-top: 0;
+}
+footer {
+  background: #002c5f;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
